@@ -30,9 +30,9 @@ def getNewsFromSource(sources=[CNN], sortBy=SORT_BY_TOP):
 			
 			# populate news
 			for news in res_json['articles']:
-				print "-----------------------"
-				print news
-				print "-----------------------"
+				# print "-----------------------"
+				# print news
+				# print "-----------------------"
 				news['source'] = res_json['source']
 
 			articles.extend(res_json['articles'])
