@@ -1,0 +1,15 @@
+lxml
+python-jsonrpc
+pymongo
+pika
+redis
+requests
+sklearn
+python-dateutil
+# newspaper no longer supported for py2, install with instructions over here https://github.com/codelucas/newspaper/tree/python-2-head
+pandas
+tensorflow
+scipy
+watchdog
+mongo-connector
+numpy
