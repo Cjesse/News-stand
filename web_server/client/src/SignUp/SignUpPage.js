@@ -40,7 +40,7 @@ class SignUpPage extends React.Component {
 		}
 
 		// post login 
-		fetch('/auth/signup', { //http://localhost:3000
+		fetch('http://localhost:3000/auth/signup', { //http://localhost:3000
 			method: 'POST',
 			// cache: false,
 			cache: 'no-cache',
