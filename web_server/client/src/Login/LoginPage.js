@@ -37,13 +37,14 @@ class LoginPage extends React.Component {
 		fetch('http://localhost:3000/auth/login', {
 			method: 'POST',
 			cache: false,
+			// cache: 'no-cache'
 			headers: {
 				'Accept': 'application/json',
 				'Content-Type': 'application/json',
 			},
 			body: JSON.stringify({
-				email: this.state.user.email,
-				password: this.state.user.password
+				email: email,
+				password: password
 			})
 		}).then(response => {
 			if (response.status === 200) {
