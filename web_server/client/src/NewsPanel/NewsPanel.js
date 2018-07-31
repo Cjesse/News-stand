@@ -41,7 +41,8 @@ class NewsPanel extends React.Component {
 			headers: {
 				'Authorization': 'bearer ' + Auth.getToken(),
 			},
-			cache: false
+			// cache: false
+			cache: 'no-cache'
 		});
 		// let request = new Request('http://localhost:3000/news', {
 		// 	method: 'GET',
